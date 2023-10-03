@@ -1,0 +1,8 @@
+<h3>Name: {{ name }}</h3>
+<h3>Num: {{ contact }}</h3>
+<h3>Find Profile: {{ profile }}</h3>
+<h3>Profile Name: {{ profile.name.fname }}</h3>
+
+<button (click)="toggleDisabled()"> Toggle Button</button>
+
+<button [disabled]="isButtonDisabled"> Button </button>

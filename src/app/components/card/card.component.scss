@@ -1,0 +1,9 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    max-width: 400px;
+    margin: 5px;
+}
